@@ -90,7 +90,7 @@ public class Employee {
         System.out.println("Mã nhân viên: "+eCode);
         System.out.println("Họ và tên nhân viên: "+name);
         System.out.println("Tuổi: "+age);
-        System.out.println("Giới tính: "+(sex? Nam: Nữ));
+        System.out.println("Giới tính: "+(sex? "Nam": "Nữ"));
         System.out.println("Mức lương: "+salary);
         System.out.println("Số điện thoại: "+phone);
     }

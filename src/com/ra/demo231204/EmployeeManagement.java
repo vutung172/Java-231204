@@ -42,6 +42,7 @@ public class EmployeeManagement {
                         String code = e.geteCode();
                         if (code.equals(eSearch)) {
                             e.displayData();
+                            break;
                         }
                     }
                     break;
